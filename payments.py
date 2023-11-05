@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from web3 import Web3
 from web3.auto import w3
+from config import POLYGON_NODE_URL, SEPOLIA_NODE_URL, ARBITRUM_NODE_URL
 
 
 @dataclass
@@ -35,14 +36,11 @@ class Data:
 
 
 class Payments:
-    POLYGON_NODE_URL = "https://polygon-mainnet.infura.io/v3/7eec932e2c324e20ac051e0aa3741d9f"
-    ARBITRUM_NODE_URL = "https://arbitrum-mainnet.infura.io/v3/7eec932e2c324e20ac051e0aa3741d9f"
-    SEPOLIA_NODE_URL = "https://sepolia.infura.io/v3/7eec932e2c324e20ac051e0aa3741d9f"
 
     def __init__(self):
-        self.polygon_w3 = Web3(Web3.HTTPProvider(Payments.POLYGON_NODE_URL))
-        self.arbitrum_w3 = Web3(Web3.HTTPProvider(Payments.ARBITRUM_NODE_URL))
-        self.sepolia_w3 = Web3(Web3.HTTPProvider(Payments.SEPOLIA_NODE_URL))
+        self.polygon_w3 = Web3(Web3.HTTPProvider(POLYGON_NODE_URL))
+        self.arbitrum_w3 = Web3(Web3.HTTPProvider(ARBITRUM_NODE_URL))
+        self.sepolia_w3 = Web3(Web3.HTTPProvider(SEPOLIA_NODE_URL))
 
     @staticmethod
     async def generate_wallet():
