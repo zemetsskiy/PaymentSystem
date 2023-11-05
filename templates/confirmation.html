@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="static/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Confirmation</h1>
+    <p>Please transfer the funds to the following EVM wallet:</p>
+    <p><b>{{ wallet_address }}</b></p>
+    <p id="payment-status">Waiting for the payment to be confirmed...</p>
+    <p>Once the payment is confirmed, you will receive an email with the details and your Discord role will be updated.</p>
+
+    <script type="text/javascript">
+        function checkPaymentStatus() {
+            $.getJSON('/check_payment_status', function(data) {
+                if (data.payment_confirmed) {
+                    // Payment is confirmed, show message and redirect
+                    $('#payment-status').text('Payment confirmed. Redirecting...');
+                    setTimeout(function() {
+                        window.location.href = '/'; // Redirect to the home page
+                    }, 3000); // Redirect after 3 seconds
+                } else {
+                    // Payment is not yet confirmed, check again after some time
+                    setTimeout(checkPaymentStatus, 10000); // Check every 10 seconds
+                }
+            });
+        }
+
+        // Start checking the payment status
+        $(document).ready(function() {
+            checkPaymentStatus();
+        });
+
+    </script>
+</body>
+</html>

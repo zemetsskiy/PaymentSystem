@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Details</title>
+    <link rel="stylesheet" type="text/css" href="static/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Payment Details</h1>
+    <form id="payment-form">
+        <label for="network">Choose a network:</label><br>
+        <select name="network" id="network">
+            <option value="ethereum">Ethereum</option>
+            <option value="sepolia">Sepolia</option>
+            <option value="binance">Binance Smart Chain</option>
+            <option value="polygon">Polygon</option>
+        </select><br>
+        <label for="token">Choose a token:</label><br>
+        <select name="token" id="token">
+            <option value="usdc">USDC</option>
+            <option value="usdt">USDT</option>
+            <option value="eth">ETH</option>
+        </select><br>
+        <label for="amount">Enter the amount:</label><br>
+        <input type="text" id="amount" name="amount" required><br>
+        <button type="button" onclick="submitPaymentDetails()">Next</button>
+    </form>
+    <div id="wallet-info" style="display:none;">
+        <p>Please transfer the funds to the following EVM wallet:</p>
+        <p><b id="wallet-address"></b></p>
+        <p id="payment-status">Waiting for the payment to be confirmed...</p>
+    </div>
+
+<script type="text/javascript">
+    function submitPaymentDetails() {
+        var token = $('#token').val();
+        var network = $('#network').val();
+        var amount = $('#amount').val();
+
+        $.ajax({
+            url: '/payment',  // Убедитесь, что это правильный конечный путь
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({ token: token, network: network, amount: amount }),
+            success: function(response) {
+                $('#wallet-address').text(response.wallet_address);
+                $('#wallet-info').show();
+                $('#payment-form').hide();
+                checkPaymentStatus();
+            },
+            error: function() {
+                alert('Ошибка при обработке ваших платёжных данных. Пожалуйста, попробуйте снова.');
+            }
+        });
+    }
+
+function checkPaymentStatus() {
+  $.getJSON('/check_payment_status', function(data) {
+    if (data.payment_confirmed) {
+      // Платеж подтвержден
+      $('#payment-status').text('Успех. Мы получили ваши средства. Переадресация...');
+      setTimeout(function() {
+        window.location.href = '/'; // Переадресация на главную страницу
+      }, 3000); // Переадресация через 3 секунды
+    } else if (data.payment_timeout) {
+      // Время ожидания платежа истекло
+      $('#payment-status').text('Мы не получили ваши средства в течение 10 минут. Редирект...');
+      setTimeout(function() {
+        window.location.href = '/'; // Переадресация на главную страницу
+      }, 3000); // Переадресация через 3 секунды
+    } else if (data.error) {
+      // Ошибка платежной сессии
+      $('#payment-status').text('Ошибка платежной сессии. ' + data.error);
+    } else {
+      // Платеж еще не подтвержден, следует продолжать проверку
+      $('#payment-status').text('Ожидание подтверждения платежа...');
+      setTimeout(checkPaymentStatus, 10000); // Проверка каждые 10 секунд
+    }
+  }).fail(function() {
+    $('#payment-status').text('Ошибка при проверке статуса платежа. Повторите попытку позже.');
+    setTimeout(checkPaymentStatus, 10000); // Проверка каждые 10 секунд
+  });
+}
+</script>
+</body>
+</html>
