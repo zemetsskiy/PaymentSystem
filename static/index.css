@@ -1,62 +1,69 @@
-
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-form {
-  background: #fff;
-  padding: 2em;
-  border-radius: 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-input[type="email"], input[type="text"], select {
-  width: 100%;
-  padding: 1em;
-  margin: 0.5em 0;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-}
-
-input[type="submit"] {
-  width: 100%;
-  padding: 1em;
-  margin-top: 1em;
-  border-radius: 5px;
-  border: none;
-  color: white;
-  background-color: #5cb85c;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #4cae4c;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
 }
 
 h1 {
-  color: #333;
-  text-align: center;
+    color: #333;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 label {
-  margin-top: 1em;
+    margin-top: 10px;
+    display: block;
+    color: #666;
 }
 
-p {
-  color: #666;
-  line-height: 1.6;
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
-/* Add some responsive styling */
-@media (max-width: 600px) {
-  form {
-    width: 90%;
-  }
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#discord-info {
+    margin-bottom: 20px;
+}
+
+#payment-details-form {
+    display: none; /* Hidden by default */
+}
+
+#next-button {
+    display: block; /* Show the button if needed */
+}
+
+#discord-auth {
+    background-color: #7289da;
+    color: white;
+}
+
+#discord-auth:hover {
+    background-color: #677bc4;
+}
+
