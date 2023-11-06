@@ -1,22 +1,44 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Subscription Service</title>
-        <link rel="stylesheet" type="text/css" href="static/index.css">
-    </head>
-    <body>
-        <h1>Welcome to the Subscription Service</h1>
-        <form action="/login/discord" method="post">
-            <label for="subscription">Choose a subscription plan:</label><br>
-            <input type="radio" id="basic" name="subscription" value="basic">
-            <label for="basic">Basic</label><br>
-            <input type="radio" id="vip" name="subscription" value="vip">
-            <label for="vip">VIP</label><br>
-            <input type="submit" value="Choose Plan">
-        </form>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Subscription Plan</title>
+</head>
+<body>
+    <h1>Choose Your Subscription Plan</h1>
+    <form action="/choose_plan" method="post">
+        <div>
+            <h2>Basic Plan</h2>
+            <label>
+                <input type="radio" name="plan" value="basic_1_month" required>
+                1 Month - $9
+            </label>
+            <label>
+                <input type="radio" name="plan" value="basic_6_months">
+                6 Months - $18
+            </label>
+            <label>
+                <input type="radio" name="plan" value="basic_lifetime">
+                Lifetime - $49
+            </label>
+        </div>
+        <div>
+            <h2>VIP Plan</h2>
+            <label>
+                <input type="radio" name="plan" value="vip_1_month">
+                1 Month - $14
+            </label>
+            <label>
+                <input type="radio" name="plan" value="vip_6_months">
+                6 Months - $36
+            </label>
+            <label>
+                <input type="radio" name="plan" value="vip_lifetime">
+                Lifetime - $79
+            </label>
+        </div>
+        <button type="submit">Choose Plan</button>
+    </form>
+</body>
+</html>
