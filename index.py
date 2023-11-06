@@ -6,6 +6,7 @@ import aioredis
 from datetime import datetime
 from quart import Quart, render_template, request, redirect, url_for, session, jsonify
 from payments import Payments
+from utils import Helper
 from config import CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, SCOPE, REDIS_HOST, REDIS_PORT, REDIS_PASSWD
 
 app = Quart(__name__)
@@ -46,6 +47,13 @@ async def get_payment_status(wallet_address):
 @app.route('/')
 async def index():
     return await render_template('index.html')
+
+
+@app.route('/choose_plan', methods=['POST'])
+async def choose_plan():
+    form_data = await request.form
+    session['plan'] = form_data['plan']
+    return redirect(url_for('payment'))
 
 
 async def set_payment_start_time(wallet_address):
@@ -99,10 +107,6 @@ async def payment_check_coroutine(wallet_address, expected_amount, token, networ
             await asyncio.sleep(2)
     except Exception as e:
         print(f"Произошла ошибка: {e}")
-    else:
-        if not session.get('payment_confirmed'):
-            print("Время ожидания истекло, платеж не подтвержден")
-            session['payment_confirmed'] = False
 
 
 @app.route('/payment', methods=['GET', 'POST'])
@@ -111,22 +115,23 @@ async def payment():
         data = await request.get_json()
         token = data['token']
         network = data['network']
-        expected_amount = data['amount']
 
         wallet_address, private_key, mnemonic = await Payments.generate_wallet()
         session['wallet_address'] = wallet_address
-        session['private_key'] = private_key
-        session['mnemonic'] = mnemonic
+        #session['private_key'] = private_key
+        #session['mnemonic'] = mnemonic
 
+        expected_amount = await Helper.getPlanPrice(plan_name=session['plan'], token=token)
         await set_payment_status(wallet_address, "false")
 
         asyncio.create_task(payment_check_coroutine(wallet_address, expected_amount, token, network))
 
-        return jsonify(wallet_address=wallet_address)
-    elif 'access_token' not in session:
-        return redirect(url_for('discord_login'))
+        return jsonify(wallet_address=wallet_address, amount=expected_amount, token=token.upper())
     else:
-        return await render_template('payment.html')
+        if 'access_token' not in session:
+            return await render_template('payment.html')
+        else:
+            return await render_template('payment.html', session=session)
 
 
 @app.route('/user_details', methods=['GET', 'POST'])
@@ -172,9 +177,6 @@ async def discord_oauth_callback():
                 user_info = user_info_response.json()
                 session['user_id'] = user_info['id']
                 session['username'] = user_info['username'] + '#' + user_info['discriminator']
-
-                print(session['username'])
-                print(session['user_id'])
 
                 return redirect(url_for('payment'))
             else:
