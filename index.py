@@ -92,21 +92,22 @@ async def check_payment_status():
 
 
 async def payment_check_coroutine(wallet_address, expected_amount, token, network):
-    print("Запущена корутина проверки баланса")
+    #logger.info("Запущена корутина проверки баланса")
     payment = Payments()
     end_time = asyncio.get_event_loop().time() + 10 * 60
     try:
         while asyncio.get_event_loop().time() < end_time:
-            print(f"Проверка платежа в {asyncio.get_event_loop().time()}")
+            #logger.info(f"Checking payment at {asyncio.get_event_loop().time()}")
             success, _ = await payment.start_payment_session(expected_amount, wallet_address, token, network)
-            print(f"Результат проверки: {success}, время: {asyncio.get_event_loop().time()}")
+            #logger.info(f"Check result: {success}, time: {asyncio.get_event_loop().time()}")
             if success:
                 await set_payment_status(wallet_address, "true")
-                print("Платеж подтвержден")
+                #logger.info("Payment confirmed")
                 break
             await asyncio.sleep(2)
     except Exception as e:
-        print(f"Произошла ошибка: {e}")
+        #logger.info(f"An error occurred: {e}")
+        pass
 
 
 @app.route('/payment', methods=['GET', 'POST'])
@@ -180,9 +181,9 @@ async def discord_oauth_callback():
 
                 return redirect(url_for('payment'))
             else:
-                return "Не удалось получить информацию о пользователе Discord.", 400
+                return "Failed to retrieve Discord user information.", 400
         else:
-            return "Не удалось аутентифицироваться через Discord.", 400
+            return "Failed to authenticate via Discord.", 400
 
 
 if __name__ == '__main__':
