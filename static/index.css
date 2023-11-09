@@ -51,11 +51,11 @@ button:hover {
 }
 
 #payment-details-form {
-    display: none; /* Hidden by default */
+    display: none;
 }
 
 #next-button {
-    display: block; /* Show the button if needed */
+    display: block;
 }
 
 #discord-auth {

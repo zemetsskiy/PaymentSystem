@@ -1,0 +1,508 @@
+2023-11-09 at 21:43:45 | INFO | payment_check_coroutine : The balance check coroutine has started.
+2023-11-09 at 21:43:45 | INFO | payment_check_coroutine : Checking payment at 1076010.968
+2023-11-09 at 21:43:45 | INFO | payment_check_coroutine : Check result: False, time: 1076011.625
+2023-11-09 at 21:43:47 | INFO | payment_check_coroutine : Checking payment at 1076013.625
+2023-11-09 at 21:43:48 | INFO | payment_check_coroutine : Check result: False, time: 1076013.781
+2023-11-09 at 21:43:50 | INFO | payment_check_coroutine : Checking payment at 1076015.781
+2023-11-09 at 21:43:50 | INFO | payment_check_coroutine : Check result: False, time: 1076015.921
+2023-11-09 at 21:43:52 | INFO | payment_check_coroutine : Checking payment at 1076017.921
+2023-11-09 at 21:43:52 | INFO | payment_check_coroutine : Check result: False, time: 1076018.078
+2023-11-09 at 21:43:54 | INFO | payment_check_coroutine : Checking payment at 1076020.078
+2023-11-09 at 21:43:54 | INFO | payment_check_coroutine : Check result: False, time: 1076020.562
+2023-11-09 at 21:43:56 | INFO | payment_check_coroutine : Checking payment at 1076022.562
+2023-11-09 at 21:43:57 | INFO | payment_check_coroutine : Check result: False, time: 1076022.703
+2023-11-09 at 21:43:59 | INFO | payment_check_coroutine : Checking payment at 1076024.703
+2023-11-09 at 21:43:59 | INFO | payment_check_coroutine : Check result: False, time: 1076024.843
+2023-11-09 at 21:44:01 | INFO | payment_check_coroutine : Checking payment at 1076026.843
+2023-11-09 at 21:44:01 | INFO | payment_check_coroutine : Check result: False, time: 1076027.0
+2023-11-09 at 21:44:03 | INFO | payment_check_coroutine : Checking payment at 1076029.0
+2023-11-09 at 21:44:03 | INFO | payment_check_coroutine : Check result: False, time: 1076029.14
+2023-11-09 at 21:44:05 | INFO | payment_check_coroutine : Checking payment at 1076031.14
+2023-11-09 at 21:44:05 | INFO | payment_check_coroutine : Check result: False, time: 1076031.281
+2023-11-09 at 21:44:07 | INFO | payment_check_coroutine : Checking payment at 1076033.281
+2023-11-09 at 21:44:07 | INFO | payment_check_coroutine : Check result: False, time: 1076033.421
+2023-11-09 at 21:44:09 | INFO | payment_check_coroutine : Checking payment at 1076035.421
+2023-11-09 at 21:44:09 | INFO | payment_check_coroutine : Check result: False, time: 1076035.562
+2023-11-09 at 21:44:11 | INFO | payment_check_coroutine : Checking payment at 1076037.562
+2023-11-09 at 21:44:12 | INFO | payment_check_coroutine : Check result: False, time: 1076037.718
+2023-11-09 at 21:44:14 | INFO | payment_check_coroutine : Checking payment at 1076039.718
+2023-11-09 at 21:44:14 | INFO | payment_check_coroutine : Check result: False, time: 1076039.875
+2023-11-09 at 21:44:16 | INFO | payment_check_coroutine : Checking payment at 1076041.89
+2023-11-09 at 21:44:16 | INFO | payment_check_coroutine : Check result: False, time: 1076042.031
+2023-11-09 at 21:44:18 | INFO | payment_check_coroutine : Checking payment at 1076044.031
+2023-11-09 at 21:44:18 | INFO | payment_check_coroutine : Check result: False, time: 1076044.265
+2023-11-09 at 21:44:20 | INFO | payment_check_coroutine : Checking payment at 1076046.265
+2023-11-09 at 21:44:20 | INFO | payment_check_coroutine : Check result: False, time: 1076046.421
+2023-11-09 at 21:44:22 | INFO | payment_check_coroutine : Checking payment at 1076048.421
+2023-11-09 at 21:44:22 | INFO | payment_check_coroutine : Check result: False, time: 1076048.562
+2023-11-09 at 21:44:24 | INFO | payment_check_coroutine : Checking payment at 1076050.562
+2023-11-09 at 21:44:25 | INFO | payment_check_coroutine : Check result: False, time: 1076050.703
+2023-11-09 at 21:44:27 | INFO | payment_check_coroutine : Checking payment at 1076052.703
+2023-11-09 at 21:44:27 | INFO | payment_check_coroutine : Check result: False, time: 1076053.078
+2023-11-09 at 21:44:29 | INFO | payment_check_coroutine : Checking payment at 1076055.093
+2023-11-09 at 21:44:29 | INFO | payment_check_coroutine : Check result: False, time: 1076055.234
+2023-11-09 at 21:44:31 | INFO | payment_check_coroutine : Checking payment at 1076057.234
+2023-11-09 at 21:44:31 | INFO | payment_check_coroutine : Check result: False, time: 1076057.375
+2023-11-09 at 21:44:33 | INFO | payment_check_coroutine : Checking payment at 1076059.375
+2023-11-09 at 21:44:33 | INFO | payment_check_coroutine : Check result: False, time: 1076059.515
+2023-11-09 at 21:44:35 | INFO | payment_check_coroutine : Checking payment at 1076061.515
+2023-11-09 at 21:44:35 | INFO | payment_check_coroutine : Check result: False, time: 1076061.671
+2023-11-09 at 21:44:37 | INFO | payment_check_coroutine : Checking payment at 1076063.671
+2023-11-09 at 21:44:38 | INFO | payment_check_coroutine : Check result: False, time: 1076063.828
+2023-11-09 at 21:44:40 | INFO | payment_check_coroutine : Checking payment at 1076065.828
+2023-11-09 at 21:44:40 | INFO | payment_check_coroutine : Check result: False, time: 1076065.984
+2023-11-09 at 21:44:42 | INFO | payment_check_coroutine : Checking payment at 1076067.984
+2023-11-09 at 21:44:42 | INFO | payment_check_coroutine : Check result: False, time: 1076068.171
+2023-11-09 at 21:44:44 | INFO | payment_check_coroutine : Checking payment at 1076070.171
+2023-11-09 at 21:44:44 | INFO | payment_check_coroutine : Check result: False, time: 1076070.312
+2023-11-09 at 21:44:46 | INFO | payment_check_coroutine : Checking payment at 1076072.312
+2023-11-09 at 21:44:46 | INFO | payment_check_coroutine : Check result: False, time: 1076072.64
+2023-11-09 at 21:44:48 | INFO | payment_check_coroutine : Checking payment at 1076074.625
+2023-11-09 at 21:44:49 | INFO | payment_check_coroutine : Check result: False, time: 1076074.765
+2023-11-09 at 21:44:51 | INFO | payment_check_coroutine : Checking payment at 1076076.765
+2023-11-09 at 21:44:51 | INFO | payment_check_coroutine : Check result: False, time: 1076077.312
+2023-11-09 at 21:44:53 | INFO | payment_check_coroutine : Checking payment at 1076079.312
+2023-11-09 at 21:44:53 | INFO | payment_check_coroutine : Check result: False, time: 1076079.453
+2023-11-09 at 21:44:55 | INFO | payment_check_coroutine : Checking payment at 1076081.453
+2023-11-09 at 21:44:55 | INFO | payment_check_coroutine : Check result: False, time: 1076081.593
+2023-11-09 at 21:44:57 | INFO | payment_check_coroutine : Checking payment at 1076083.593
+2023-11-09 at 21:44:58 | INFO | payment_check_coroutine : Check result: False, time: 1076083.734
+2023-11-09 at 21:45:00 | INFO | payment_check_coroutine : Checking payment at 1076085.75
+2023-11-09 at 21:45:00 | INFO | payment_check_coroutine : Check result: False, time: 1076085.89
+2023-11-09 at 21:45:02 | INFO | payment_check_coroutine : Checking payment at 1076087.89
+2023-11-09 at 21:45:02 | INFO | payment_check_coroutine : Check result: False, time: 1076088.031
+2023-11-09 at 21:45:04 | INFO | payment_check_coroutine : Checking payment at 1076090.031
+2023-11-09 at 21:45:04 | INFO | payment_check_coroutine : Check result: False, time: 1076090.187
+2023-11-09 at 21:45:06 | INFO | payment_check_coroutine : Checking payment at 1076092.187
+2023-11-09 at 21:45:06 | INFO | payment_check_coroutine : Check result: False, time: 1076092.406
+2023-11-09 at 21:45:08 | INFO | payment_check_coroutine : Checking payment at 1076094.406
+2023-11-09 at 21:45:08 | INFO | payment_check_coroutine : Check result: False, time: 1076094.562
+2023-11-09 at 21:45:10 | INFO | payment_check_coroutine : Checking payment at 1076096.562
+2023-11-09 at 21:45:11 | INFO | payment_check_coroutine : Check result: False, time: 1076096.718
+2023-11-09 at 21:45:13 | INFO | payment_check_coroutine : Checking payment at 1076098.734
+2023-11-09 at 21:45:13 | INFO | payment_check_coroutine : Check result: False, time: 1076098.89
+2023-11-09 at 21:45:15 | INFO | payment_check_coroutine : Checking payment at 1076100.89
+2023-11-09 at 21:45:15 | INFO | payment_check_coroutine : Check result: False, time: 1076101.046
+2023-11-09 at 21:45:17 | INFO | payment_check_coroutine : Checking payment at 1076103.046
+2023-11-09 at 21:45:17 | INFO | payment_check_coroutine : Check result: False, time: 1076103.187
+2023-11-09 at 21:45:19 | INFO | payment_check_coroutine : Checking payment at 1076105.187
+2023-11-09 at 21:45:19 | INFO | payment_check_coroutine : Check result: False, time: 1076105.328
+2023-11-09 at 21:45:21 | INFO | payment_check_coroutine : Checking payment at 1076107.328
+2023-11-09 at 21:45:21 | INFO | payment_check_coroutine : Check result: False, time: 1076107.484
+2023-11-09 at 21:45:23 | INFO | payment_check_coroutine : Checking payment at 1076109.484
+2023-11-09 at 21:45:24 | INFO | payment_check_coroutine : Check result: False, time: 1076109.765
+2023-11-09 at 21:45:26 | INFO | payment_check_coroutine : Checking payment at 1076111.765
+2023-11-09 at 21:45:26 | INFO | payment_check_coroutine : Check result: False, time: 1076111.921
+2023-11-09 at 21:45:28 | INFO | payment_check_coroutine : Checking payment at 1076113.921
+2023-11-09 at 21:45:28 | INFO | payment_check_coroutine : Check result: False, time: 1076114.062
+2023-11-09 at 21:45:30 | INFO | payment_check_coroutine : Checking payment at 1076116.062
+2023-11-09 at 21:45:30 | INFO | payment_check_coroutine : Check result: False, time: 1076116.281
+2023-11-09 at 21:45:32 | INFO | payment_check_coroutine : Checking payment at 1076118.281
+2023-11-09 at 21:45:32 | INFO | payment_check_coroutine : Check result: False, time: 1076118.421
+2023-11-09 at 21:45:34 | INFO | payment_check_coroutine : Checking payment at 1076120.421
+2023-11-09 at 21:45:34 | INFO | payment_check_coroutine : Check result: False, time: 1076120.578
+2023-11-09 at 21:45:36 | INFO | payment_check_coroutine : Checking payment at 1076122.578
+2023-11-09 at 21:45:37 | INFO | payment_check_coroutine : Check result: False, time: 1076122.734
+2023-11-09 at 21:45:39 | INFO | payment_check_coroutine : Checking payment at 1076124.734
+2023-11-09 at 21:45:39 | INFO | payment_check_coroutine : Check result: False, time: 1076124.875
+2023-11-09 at 21:45:41 | INFO | payment_check_coroutine : Checking payment at 1076126.875
+2023-11-09 at 21:45:41 | INFO | payment_check_coroutine : Check result: False, time: 1076127.046
+2023-11-09 at 21:45:43 | INFO | payment_check_coroutine : Checking payment at 1076129.046
+2023-11-09 at 21:45:43 | INFO | payment_check_coroutine : Check result: False, time: 1076129.187
+2023-11-09 at 21:45:45 | INFO | payment_check_coroutine : Checking payment at 1076131.187
+2023-11-09 at 21:45:45 | INFO | payment_check_coroutine : Check result: False, time: 1076131.328
+2023-11-09 at 21:45:47 | INFO | payment_check_coroutine : Checking payment at 1076133.328
+2023-11-09 at 21:45:48 | INFO | payment_check_coroutine : Check result: False, time: 1076133.953
+2023-11-09 at 21:45:50 | INFO | payment_check_coroutine : Checking payment at 1076135.953
+2023-11-09 at 21:45:50 | INFO | payment_check_coroutine : Check result: False, time: 1076136.515
+2023-11-09 at 21:45:52 | INFO | payment_check_coroutine : Checking payment at 1076138.515
+2023-11-09 at 21:45:52 | INFO | payment_check_coroutine : Check result: False, time: 1076138.671
+2023-11-09 at 21:45:54 | INFO | payment_check_coroutine : Checking payment at 1076140.671
+2023-11-09 at 21:45:55 | INFO | payment_check_coroutine : Check result: False, time: 1076140.828
+2023-11-09 at 21:45:57 | INFO | payment_check_coroutine : Checking payment at 1076142.828
+2023-11-09 at 21:45:57 | INFO | payment_check_coroutine : Check result: False, time: 1076142.984
+2023-11-09 at 21:45:59 | INFO | payment_check_coroutine : Checking payment at 1076144.984
+2023-11-09 at 21:45:59 | INFO | payment_check_coroutine : Check result: False, time: 1076145.14
+2023-11-09 at 21:46:01 | INFO | payment_check_coroutine : Checking payment at 1076147.14
+2023-11-09 at 21:46:01 | INFO | payment_check_coroutine : Check result: False, time: 1076147.281
+2023-11-09 at 21:46:03 | INFO | payment_check_coroutine : Checking payment at 1076149.296
+2023-11-09 at 21:46:03 | INFO | payment_check_coroutine : Check result: False, time: 1076149.453
+2023-11-09 at 21:46:05 | INFO | payment_check_coroutine : Checking payment at 1076151.453
+2023-11-09 at 21:46:05 | INFO | payment_check_coroutine : Check result: False, time: 1076151.593
+2023-11-09 at 21:46:07 | INFO | payment_check_coroutine : Checking payment at 1076153.593
+2023-11-09 at 21:46:08 | INFO | payment_check_coroutine : Check result: False, time: 1076153.75
+2023-11-09 at 21:46:10 | INFO | payment_check_coroutine : Checking payment at 1076155.75
+2023-11-09 at 21:46:10 | INFO | payment_check_coroutine : Check result: False, time: 1076155.906
+2023-11-09 at 21:46:12 | INFO | payment_check_coroutine : Checking payment at 1076157.906
+2023-11-09 at 21:46:12 | INFO | payment_check_coroutine : Check result: False, time: 1076158.046
+2023-11-09 at 21:46:14 | INFO | payment_check_coroutine : Checking payment at 1076160.046
+2023-11-09 at 21:46:14 | INFO | payment_check_coroutine : Check result: False, time: 1076160.203
+2023-11-09 at 21:46:16 | INFO | payment_check_coroutine : Checking payment at 1076162.203
+2023-11-09 at 21:46:17 | INFO | payment_check_coroutine : Check result: False, time: 1076162.75
+2023-11-09 at 21:46:19 | INFO | payment_check_coroutine : Checking payment at 1076164.75
+2023-11-09 at 21:46:19 | INFO | payment_check_coroutine : Check result: False, time: 1076164.906
+2023-11-09 at 21:46:21 | INFO | payment_check_coroutine : Checking payment at 1076166.906
+2023-11-09 at 21:46:21 | INFO | payment_check_coroutine : Check result: False, time: 1076167.046
+2023-11-09 at 21:46:23 | INFO | payment_check_coroutine : Checking payment at 1076169.046
+2023-11-09 at 21:46:23 | INFO | payment_check_coroutine : Check result: False, time: 1076169.187
+2023-11-09 at 21:46:25 | INFO | payment_check_coroutine : Checking payment at 1076171.187
+2023-11-09 at 21:46:25 | INFO | payment_check_coroutine : Check result: False, time: 1076171.375
+2023-11-09 at 21:46:27 | INFO | payment_check_coroutine : Checking payment at 1076173.39
+2023-11-09 at 21:46:27 | INFO | payment_check_coroutine : Check result: False, time: 1076173.546
+2023-11-09 at 21:46:29 | INFO | payment_check_coroutine : Checking payment at 1076175.546
+2023-11-09 at 21:46:30 | INFO | payment_check_coroutine : Check result: False, time: 1076175.703
+2023-11-09 at 21:46:32 | INFO | payment_check_coroutine : Checking payment at 1076177.703
+2023-11-09 at 21:46:32 | INFO | payment_check_coroutine : Check result: False, time: 1076177.843
+2023-11-09 at 21:46:34 | INFO | payment_check_coroutine : Checking payment at 1076179.875
+2023-11-09 at 21:46:34 | INFO | payment_check_coroutine : Check result: False, time: 1076180.015
+2023-11-09 at 21:46:36 | INFO | payment_check_coroutine : Checking payment at 1076182.015
+2023-11-09 at 21:46:36 | INFO | payment_check_coroutine : Check result: False, time: 1076182.171
+2023-11-09 at 21:46:38 | INFO | payment_check_coroutine : Checking payment at 1076184.171
+2023-11-09 at 21:46:38 | INFO | payment_check_coroutine : Check result: False, time: 1076184.312
+2023-11-09 at 21:46:40 | INFO | payment_check_coroutine : Checking payment at 1076186.312
+2023-11-09 at 21:46:40 | INFO | payment_check_coroutine : Check result: False, time: 1076186.453
+2023-11-09 at 21:46:42 | INFO | payment_check_coroutine : Checking payment at 1076188.453
+2023-11-09 at 21:46:43 | INFO | payment_check_coroutine : Check result: False, time: 1076188.937
+2023-11-09 at 21:46:45 | INFO | payment_check_coroutine : Checking payment at 1076190.937
+2023-11-09 at 21:46:45 | INFO | payment_check_coroutine : Check result: False, time: 1076191.078
+2023-11-09 at 21:46:47 | INFO | payment_check_coroutine : Checking payment at 1076193.078
+2023-11-09 at 21:46:47 | INFO | payment_check_coroutine : Check result: False, time: 1076193.625
+2023-11-09 at 21:46:49 | INFO | payment_check_coroutine : Checking payment at 1076195.625
+2023-11-09 at 21:46:50 | INFO | payment_check_coroutine : Check result: False, time: 1076195.781
+2023-11-09 at 21:46:52 | INFO | payment_check_coroutine : Checking payment at 1076197.796
+2023-11-09 at 21:46:52 | INFO | payment_check_coroutine : Check result: False, time: 1076197.937
+2023-11-09 at 21:46:54 | INFO | payment_check_coroutine : Checking payment at 1076199.937
+2023-11-09 at 21:46:54 | INFO | payment_check_coroutine : Check result: False, time: 1076200.14
+2023-11-09 at 21:46:56 | INFO | payment_check_coroutine : Checking payment at 1076202.14
+2023-11-09 at 21:46:56 | INFO | payment_check_coroutine : Check result: False, time: 1076202.281
+2023-11-09 at 21:46:58 | INFO | payment_check_coroutine : Checking payment at 1076204.281
+2023-11-09 at 21:46:58 | INFO | payment_check_coroutine : Check result: False, time: 1076204.609
+2023-11-09 at 21:47:00 | INFO | payment_check_coroutine : Checking payment at 1076206.609
+2023-11-09 at 21:47:01 | INFO | payment_check_coroutine : Check result: False, time: 1076206.75
+2023-11-09 at 21:47:03 | INFO | payment_check_coroutine : Checking payment at 1076208.75
+2023-11-09 at 21:47:03 | INFO | payment_check_coroutine : Check result: False, time: 1076208.89
+2023-11-09 at 21:47:05 | INFO | payment_check_coroutine : Checking payment at 1076210.89
+2023-11-09 at 21:47:05 | INFO | payment_check_coroutine : Check result: False, time: 1076211.031
+2023-11-09 at 21:47:07 | INFO | payment_check_coroutine : Checking payment at 1076213.046
+2023-11-09 at 21:47:07 | INFO | payment_check_coroutine : Check result: False, time: 1076213.234
+2023-11-09 at 21:47:09 | INFO | payment_check_coroutine : Checking payment at 1076215.234
+2023-11-09 at 21:47:09 | INFO | payment_check_coroutine : Check result: False, time: 1076215.375
+2023-11-09 at 21:47:11 | INFO | payment_check_coroutine : Checking payment at 1076217.375
+2023-11-09 at 21:47:11 | INFO | payment_check_coroutine : Check result: False, time: 1076217.609
+2023-11-09 at 21:47:13 | INFO | payment_check_coroutine : Checking payment at 1076219.609
+2023-11-09 at 21:47:14 | INFO | payment_check_coroutine : Check result: False, time: 1076219.75
+2023-11-09 at 21:47:16 | INFO | payment_check_coroutine : Checking payment at 1076221.75
+2023-11-09 at 21:47:16 | INFO | payment_check_coroutine : Check result: False, time: 1076221.89
+2023-11-09 at 21:47:18 | INFO | payment_check_coroutine : Checking payment at 1076223.906
+2023-11-09 at 21:47:18 | INFO | payment_check_coroutine : Check result: False, time: 1076224.437
+2023-11-09 at 21:47:20 | INFO | payment_check_coroutine : Checking payment at 1076226.437
+2023-11-09 at 21:47:20 | INFO | payment_check_coroutine : Check result: False, time: 1076226.578
+2023-11-09 at 21:47:22 | INFO | payment_check_coroutine : Checking payment at 1076228.578
+2023-11-09 at 21:47:23 | INFO | payment_check_coroutine : Check result: False, time: 1076228.734
+2023-11-09 at 21:47:25 | INFO | payment_check_coroutine : Checking payment at 1076230.734
+2023-11-09 at 21:47:25 | INFO | payment_check_coroutine : Check result: False, time: 1076230.875
+2023-11-09 at 21:47:27 | INFO | payment_check_coroutine : Checking payment at 1076232.875
+2023-11-09 at 21:47:27 | INFO | payment_check_coroutine : Check result: False, time: 1076233.015
+2023-11-09 at 21:48:11 | INFO | payment_check_coroutine : The balance check coroutine has started.
+2023-11-09 at 21:48:11 | INFO | payment_check_coroutine : Checking payment at 1076276.953
+2023-11-09 at 21:48:14 | INFO | payment_check_coroutine : Check result: False, time: 1076280.234
+2023-11-09 at 21:48:16 | INFO | payment_check_coroutine : Checking payment at 1076282.25
+2023-11-09 at 21:48:16 | INFO | payment_check_coroutine : Check result: False, time: 1076282.562
+2023-11-09 at 21:48:18 | INFO | payment_check_coroutine : Checking payment at 1076284.578
+2023-11-09 at 21:48:19 | INFO | payment_check_coroutine : Check result: False, time: 1076284.718
+2023-11-09 at 21:48:21 | INFO | payment_check_coroutine : Checking payment at 1076286.718
+2023-11-09 at 21:48:21 | INFO | payment_check_coroutine : Check result: False, time: 1076287.109
+2023-11-09 at 21:48:23 | INFO | payment_check_coroutine : Checking payment at 1076289.109
+2023-11-09 at 21:48:23 | INFO | payment_check_coroutine : Check result: False, time: 1076289.328
+2023-11-09 at 21:48:25 | INFO | payment_check_coroutine : Checking payment at 1076291.328
+2023-11-09 at 21:48:25 | INFO | payment_check_coroutine : Check result: False, time: 1076291.484
+2023-11-09 at 21:48:27 | INFO | payment_check_coroutine : Checking payment at 1076293.484
+2023-11-09 at 21:48:27 | INFO | payment_check_coroutine : Check result: False, time: 1076293.625
+2023-11-09 at 21:48:29 | INFO | payment_check_coroutine : Checking payment at 1076295.625
+2023-11-09 at 21:48:30 | INFO | payment_check_coroutine : Check result: False, time: 1076295.765
+2023-11-09 at 21:48:32 | INFO | payment_check_coroutine : Checking payment at 1076297.781
+2023-11-09 at 21:48:32 | INFO | payment_check_coroutine : Check result: False, time: 1076297.937
+2023-11-09 at 21:48:34 | INFO | payment_check_coroutine : Checking payment at 1076299.937
+2023-11-09 at 21:48:34 | INFO | payment_check_coroutine : Check result: False, time: 1076300.093
+2023-11-09 at 21:48:36 | INFO | payment_check_coroutine : Checking payment at 1076302.109
+2023-11-09 at 21:48:36 | INFO | payment_check_coroutine : Check result: False, time: 1076302.265
+2023-11-09 at 21:48:38 | INFO | payment_check_coroutine : Checking payment at 1076304.265
+2023-11-09 at 21:48:38 | INFO | payment_check_coroutine : Check result: False, time: 1076304.406
+2023-11-09 at 21:48:40 | INFO | payment_check_coroutine : Checking payment at 1076306.406
+2023-11-09 at 21:48:40 | INFO | payment_check_coroutine : Check result: False, time: 1076306.562
+2023-11-09 at 21:48:42 | INFO | payment_check_coroutine : Checking payment at 1076308.578
+2023-11-09 at 21:48:43 | INFO | payment_check_coroutine : Check result: False, time: 1076308.718
+2023-11-09 at 21:48:45 | INFO | payment_check_coroutine : Checking payment at 1076310.718
+2023-11-09 at 21:48:45 | INFO | payment_check_coroutine : Check result: False, time: 1076311.046
+2023-11-09 at 21:48:47 | INFO | payment_check_coroutine : Checking payment at 1076313.046
+2023-11-09 at 21:48:47 | INFO | payment_check_coroutine : Check result: False, time: 1076313.203
+2023-11-09 at 21:48:49 | INFO | payment_check_coroutine : Checking payment at 1076315.203
+2023-11-09 at 21:48:49 | INFO | payment_check_coroutine : Check result: False, time: 1076315.359
+2023-11-09 at 21:48:51 | INFO | payment_check_coroutine : Checking payment at 1076317.359
+2023-11-09 at 21:48:51 | INFO | payment_check_coroutine : Check result: False, time: 1076317.531
+2023-11-09 at 21:48:53 | INFO | payment_check_coroutine : Checking payment at 1076319.531
+2023-11-09 at 21:48:54 | INFO | payment_check_coroutine : Check result: False, time: 1076319.843
+2023-11-09 at 21:48:56 | INFO | payment_check_coroutine : Checking payment at 1076321.843
+2023-11-09 at 21:48:56 | INFO | payment_check_coroutine : Check result: False, time: 1076321.984
+2023-11-09 at 21:48:58 | INFO | payment_check_coroutine : Checking payment at 1076323.984
+2023-11-09 at 21:48:58 | INFO | payment_check_coroutine : Check result: False, time: 1076324.125
+2023-11-09 at 21:49:00 | INFO | payment_check_coroutine : Checking payment at 1076326.14
+2023-11-09 at 21:49:00 | INFO | payment_check_coroutine : Check result: False, time: 1076326.281
+2023-11-09 at 21:49:02 | INFO | payment_check_coroutine : Checking payment at 1076328.281
+2023-11-09 at 21:49:02 | INFO | payment_check_coroutine : Check result: False, time: 1076328.437
+2023-11-09 at 21:49:04 | INFO | payment_check_coroutine : Checking payment at 1076330.437
+2023-11-09 at 21:49:04 | INFO | payment_check_coroutine : Check result: False, time: 1076330.578
+2023-11-09 at 21:49:06 | INFO | payment_check_coroutine : Checking payment at 1076332.578
+2023-11-09 at 21:49:07 | INFO | payment_check_coroutine : Check result: False, time: 1076332.718
+2023-11-09 at 21:49:09 | INFO | payment_check_coroutine : Checking payment at 1076334.718
+2023-11-09 at 21:49:09 | INFO | payment_check_coroutine : Check result: False, time: 1076334.875
+2023-11-09 at 21:49:11 | INFO | payment_check_coroutine : Checking payment at 1076336.875
+2023-11-09 at 21:49:11 | INFO | payment_check_coroutine : Check result: False, time: 1076337.031
+2023-11-09 at 21:49:13 | INFO | payment_check_coroutine : Checking payment at 1076339.046
+2023-11-09 at 21:49:13 | INFO | payment_check_coroutine : Check result: False, time: 1076339.187
+2023-11-09 at 21:49:15 | INFO | payment_check_coroutine : Checking payment at 1076341.187
+2023-11-09 at 21:49:15 | INFO | payment_check_coroutine : Check result: False, time: 1076341.343
+2023-11-09 at 21:49:17 | INFO | payment_check_coroutine : Checking payment at 1076343.343
+2023-11-09 at 21:49:17 | INFO | payment_check_coroutine : Check result: False, time: 1076343.5
+2023-11-09 at 21:49:19 | INFO | payment_check_coroutine : Checking payment at 1076345.5
+2023-11-09 at 21:49:20 | INFO | payment_check_coroutine : Check result: False, time: 1076345.703
+2023-11-09 at 21:49:22 | INFO | payment_check_coroutine : Checking payment at 1076347.703
+2023-11-09 at 21:49:22 | INFO | payment_check_coroutine : Check result: False, time: 1076347.843
+2023-11-09 at 21:49:24 | INFO | payment_check_coroutine : Checking payment at 1076349.843
+2023-11-09 at 21:49:24 | INFO | payment_check_coroutine : Check result: False, time: 1076349.984
+2023-11-09 at 21:49:26 | INFO | payment_check_coroutine : Checking payment at 1076351.984
+2023-11-09 at 21:49:26 | INFO | payment_check_coroutine : Check result: False, time: 1076352.125
+2023-11-09 at 21:49:28 | INFO | payment_check_coroutine : Checking payment at 1076354.125
+2023-11-09 at 21:49:28 | INFO | payment_check_coroutine : Check result: False, time: 1076354.265
+2023-11-09 at 21:49:30 | INFO | payment_check_coroutine : Checking payment at 1076356.265
+2023-11-09 at 21:49:30 | INFO | payment_check_coroutine : Check result: False, time: 1076356.421
+2023-11-09 at 21:49:32 | INFO | payment_check_coroutine : Checking payment at 1076358.421
+2023-11-09 at 21:49:33 | INFO | payment_check_coroutine : Check result: False, time: 1076358.75
+2023-11-09 at 21:49:35 | INFO | payment_check_coroutine : Checking payment at 1076360.75
+2023-11-09 at 21:49:35 | INFO | payment_check_coroutine : Check result: False, time: 1076361.015
+2023-11-09 at 21:49:37 | INFO | payment_check_coroutine : Checking payment at 1076363.031
+2023-11-09 at 21:49:37 | INFO | payment_check_coroutine : Check result: True, time: 1076363.187
+2023-11-09 at 21:49:37 | INFO | payment_check_coroutine : Payment confirmed
+2023-11-09 at 21:49:37 | INFO | payment_check_coroutine : An error occurred: 'email'
+2023-11-09 at 21:53:32 | INFO | payment_check_coroutine : The balance check coroutine has started.
+2023-11-09 at 21:53:32 | INFO | payment_check_coroutine : Checking payment at 1076597.906
+2023-11-09 at 21:53:32 | INFO | payment_check_coroutine : Check result: False, time: 1076598.562
+2023-11-09 at 21:53:34 | INFO | payment_check_coroutine : Checking payment at 1076600.562
+2023-11-09 at 21:53:35 | INFO | payment_check_coroutine : Check result: False, time: 1076600.703
+2023-11-09 at 21:53:37 | INFO | payment_check_coroutine : Checking payment at 1076602.718
+2023-11-09 at 21:53:37 | INFO | payment_check_coroutine : Check result: False, time: 1076602.875
+2023-11-09 at 21:53:39 | INFO | payment_check_coroutine : Checking payment at 1076604.875
+2023-11-09 at 21:53:39 | INFO | payment_check_coroutine : Check result: False, time: 1076605.015
+2023-11-09 at 21:53:41 | INFO | payment_check_coroutine : Checking payment at 1076607.015
+2023-11-09 at 21:53:41 | INFO | payment_check_coroutine : Check result: False, time: 1076607.171
+2023-11-09 at 21:53:43 | INFO | payment_check_coroutine : Checking payment at 1076609.171
+2023-11-09 at 21:53:43 | INFO | payment_check_coroutine : Check result: False, time: 1076609.312
+2023-11-09 at 21:53:45 | INFO | payment_check_coroutine : Checking payment at 1076611.312
+2023-11-09 at 21:53:45 | INFO | payment_check_coroutine : Check result: False, time: 1076611.468
+2023-11-09 at 21:53:47 | INFO | payment_check_coroutine : Checking payment at 1076613.468
+2023-11-09 at 21:53:47 | INFO | payment_check_coroutine : Check result: False, time: 1076613.609
+2023-11-09 at 21:53:49 | INFO | payment_check_coroutine : Checking payment at 1076615.609
+2023-11-09 at 21:53:50 | INFO | payment_check_coroutine : Check result: False, time: 1076615.875
+2023-11-09 at 21:53:52 | INFO | payment_check_coroutine : Checking payment at 1076617.89
+2023-11-09 at 21:53:52 | INFO | payment_check_coroutine : Check result: False, time: 1076618.031
+2023-11-09 at 21:53:54 | INFO | payment_check_coroutine : Checking payment at 1076620.031
+2023-11-09 at 21:53:54 | INFO | payment_check_coroutine : Check result: False, time: 1076620.171
+2023-11-09 at 21:53:56 | INFO | payment_check_coroutine : Checking payment at 1076622.171
+2023-11-09 at 21:53:56 | INFO | payment_check_coroutine : Check result: False, time: 1076622.343
+2023-11-09 at 21:53:58 | INFO | payment_check_coroutine : Checking payment at 1076624.343
+2023-11-09 at 21:53:58 | INFO | payment_check_coroutine : Check result: False, time: 1076624.484
+2023-11-09 at 21:54:00 | INFO | payment_check_coroutine : Checking payment at 1076626.484
+2023-11-09 at 21:54:00 | INFO | payment_check_coroutine : Check result: True, time: 1076626.625
+2023-11-09 at 21:54:01 | INFO | payment_check_coroutine : Payment confirmed
+2023-11-09 at 21:54:01 | INFO | payment_check_coroutine : An error occurred: 'email'
+2023-11-09 at 22:18:22 | INFO | save_email : Email from form: 
+2023-11-09 at 22:21:01 | INFO | save_email : Email from form: 
+2023-11-09 at 22:22:45 | INFO | save_email : Email from form: 
+2023-11-09 at 22:23:29 | INFO | save_email : Email from form: 
+2023-11-09 at 22:25:16 | INFO | payment_check_coroutine : The balance check coroutine has started.
+2023-11-09 at 22:25:16 | INFO | payment_check_coroutine : Checking payment at 1078501.781
+2023-11-09 at 22:25:17 | INFO | payment_check_coroutine : Check result: False, time: 1078503.546
+2023-11-09 at 22:25:19 | INFO | payment_check_coroutine : Checking payment at 1078505.562
+2023-11-09 at 22:25:20 | INFO | payment_check_coroutine : Check result: False, time: 1078505.703
+2023-11-09 at 22:25:22 | INFO | payment_check_coroutine : Checking payment at 1078507.703
+2023-11-09 at 22:25:22 | INFO | payment_check_coroutine : Check result: False, time: 1078507.859
+2023-11-09 at 22:25:24 | INFO | payment_check_coroutine : Checking payment at 1078509.859
+2023-11-09 at 22:25:24 | INFO | payment_check_coroutine : Check result: False, time: 1078510.015
+2023-11-09 at 22:25:26 | INFO | payment_check_coroutine : Checking payment at 1078512.015
+2023-11-09 at 22:25:26 | INFO | payment_check_coroutine : Check result: False, time: 1078512.156
+2023-11-09 at 22:25:28 | INFO | payment_check_coroutine : Checking payment at 1078514.156
+2023-11-09 at 22:25:28 | INFO | payment_check_coroutine : Check result: False, time: 1078514.312
+2023-11-09 at 22:25:30 | INFO | payment_check_coroutine : Checking payment at 1078516.312
+2023-11-09 at 22:25:31 | INFO | payment_check_coroutine : Check result: False, time: 1078516.718
+2023-11-09 at 22:25:33 | INFO | payment_check_coroutine : Checking payment at 1078518.718
+2023-11-09 at 22:25:33 | INFO | payment_check_coroutine : Check result: False, time: 1078518.984
+2023-11-09 at 22:25:35 | INFO | payment_check_coroutine : Checking payment at 1078520.984
+2023-11-09 at 22:25:35 | INFO | payment_check_coroutine : Check result: False, time: 1078521.125
+2023-11-09 at 22:25:37 | INFO | payment_check_coroutine : Checking payment at 1078523.125
+2023-11-09 at 22:25:37 | INFO | payment_check_coroutine : Check result: False, time: 1078523.265
+2023-11-09 at 22:25:39 | INFO | payment_check_coroutine : Checking payment at 1078525.265
+2023-11-09 at 22:25:39 | INFO | payment_check_coroutine : Check result: False, time: 1078525.421
+2023-11-09 at 22:25:41 | INFO | payment_check_coroutine : Checking payment at 1078527.421
+2023-11-09 at 22:25:42 | INFO | payment_check_coroutine : Check result: False, time: 1078527.703
+2023-11-09 at 22:25:44 | INFO | payment_check_coroutine : Checking payment at 1078529.703
+2023-11-09 at 22:25:44 | INFO | payment_check_coroutine : Check result: False, time: 1078529.953
+2023-11-09 at 22:25:46 | INFO | payment_check_coroutine : Checking payment at 1078531.953
+2023-11-09 at 22:25:46 | INFO | payment_check_coroutine : Check result: False, time: 1078532.109
+2023-11-09 at 22:25:48 | INFO | payment_check_coroutine : Checking payment at 1078534.109
+2023-11-09 at 22:25:48 | INFO | payment_check_coroutine : Check result: False, time: 1078534.296
+2023-11-09 at 22:25:50 | INFO | payment_check_coroutine : Checking payment at 1078536.296
+2023-11-09 at 22:25:50 | INFO | payment_check_coroutine : Check result: True, time: 1078536.453
+2023-11-09 at 22:25:50 | INFO | payment_check_coroutine : Payment confirmed
+2023-11-09 at 22:25:51 | INFO | payment_check_coroutine : Cant get email address from session
+2023-11-09 at 22:33:55 | INFO | payment_check_coroutine : The balance check coroutine has started.
+2023-11-09 at 22:33:55 | INFO | payment_check_coroutine : Checking payment at 1079021.437
+2023-11-09 at 22:33:56 | INFO | payment_check_coroutine : Check result: False, time: 1079022.015
+2023-11-09 at 22:33:58 | INFO | payment_check_coroutine : Checking payment at 1079024.015
+2023-11-09 at 22:33:58 | INFO | payment_check_coroutine : Check result: False, time: 1079024.187
+2023-11-09 at 22:34:00 | INFO | payment_check_coroutine : Checking payment at 1079026.187
+2023-11-09 at 22:34:00 | INFO | payment_check_coroutine : Check result: False, time: 1079026.328
+2023-11-09 at 22:34:02 | INFO | payment_check_coroutine : Checking payment at 1079028.328
+2023-11-09 at 22:34:02 | INFO | payment_check_coroutine : Check result: False, time: 1079028.687
+2023-11-09 at 22:34:04 | INFO | payment_check_coroutine : Checking payment at 1079030.687
+2023-11-09 at 22:34:05 | INFO | payment_check_coroutine : Check result: False, time: 1079030.828
+2023-11-09 at 22:34:07 | INFO | payment_check_coroutine : Checking payment at 1079032.828
+2023-11-09 at 22:34:07 | INFO | payment_check_coroutine : Check result: False, time: 1079033.109
+2023-11-09 at 22:34:09 | INFO | payment_check_coroutine : Checking payment at 1079035.109
+2023-11-09 at 22:34:09 | INFO | payment_check_coroutine : Check result: False, time: 1079035.265
+2023-11-09 at 22:34:11 | INFO | payment_check_coroutine : Checking payment at 1079037.265
+2023-11-09 at 22:34:11 | INFO | payment_check_coroutine : Check result: False, time: 1079037.421
+2023-11-09 at 22:34:13 | INFO | payment_check_coroutine : Checking payment at 1079039.421
+2023-11-09 at 22:34:13 | INFO | payment_check_coroutine : Check result: False, time: 1079039.593
+2023-11-09 at 22:34:15 | INFO | payment_check_coroutine : Checking payment at 1079041.593
+2023-11-09 at 22:34:16 | INFO | payment_check_coroutine : Check result: False, time: 1079041.734
+2023-11-09 at 22:34:18 | INFO | payment_check_coroutine : Checking payment at 1079043.734
+2023-11-09 at 22:34:18 | INFO | payment_check_coroutine : Check result: False, time: 1079044.203
+2023-11-09 at 22:34:20 | INFO | payment_check_coroutine : Checking payment at 1079046.203
+2023-11-09 at 22:34:20 | INFO | payment_check_coroutine : Check result: False, time: 1079046.515
+2023-11-09 at 22:34:22 | INFO | payment_check_coroutine : Checking payment at 1079048.515
+2023-11-09 at 22:34:23 | INFO | payment_check_coroutine : Check result: False, time: 1079048.984
+2023-11-09 at 22:34:25 | INFO | payment_check_coroutine : Checking payment at 1079050.984
+2023-11-09 at 22:34:25 | INFO | payment_check_coroutine : Check result: True, time: 1079051.359
+2023-11-09 at 22:34:26 | INFO | payment_check_coroutine : Payment confirmed
+2023-11-09 at 22:34:26 | INFO | payment_check_coroutine : Sending message to testmasok@mail.ru
+2023-11-09 at 22:34:27 | INFO | send_message : Message was not sent to testmasok@mail.ru: 
+2023-11-09 at 22:35:39 | INFO | payment_check_coroutine : The balance check coroutine has started.
+2023-11-09 at 22:35:39 | INFO | payment_check_coroutine : Checking payment at 1079125.187
+2023-11-09 at 22:35:40 | INFO | payment_check_coroutine : Check result: False, time: 1079125.796
+2023-11-09 at 22:35:42 | INFO | payment_check_coroutine : Checking payment at 1079127.796
+2023-11-09 at 22:35:42 | INFO | payment_check_coroutine : Check result: False, time: 1079127.937
+2023-11-09 at 22:35:44 | INFO | payment_check_coroutine : Checking payment at 1079129.937
+2023-11-09 at 22:35:44 | INFO | payment_check_coroutine : Check result: False, time: 1079130.203
+2023-11-09 at 22:35:46 | INFO | payment_check_coroutine : Checking payment at 1079132.218
+2023-11-09 at 22:35:46 | INFO | payment_check_coroutine : Check result: False, time: 1079132.406
+2023-11-09 at 22:35:48 | INFO | payment_check_coroutine : Checking payment at 1079134.406
+2023-11-09 at 22:35:48 | INFO | payment_check_coroutine : Check result: False, time: 1079134.562
+2023-11-09 at 22:35:50 | INFO | payment_check_coroutine : Checking payment at 1079136.562
+2023-11-09 at 22:35:51 | INFO | payment_check_coroutine : Check result: False, time: 1079136.718
+2023-11-09 at 22:35:53 | INFO | payment_check_coroutine : Checking payment at 1079138.718
+2023-11-09 at 22:35:53 | INFO | payment_check_coroutine : Check result: False, time: 1079138.859
+2023-11-09 at 22:35:55 | INFO | payment_check_coroutine : Checking payment at 1079140.859
+2023-11-09 at 22:35:55 | INFO | payment_check_coroutine : Check result: False, time: 1079141.0
+2023-11-09 at 22:35:57 | INFO | payment_check_coroutine : Checking payment at 1079143.0
+2023-11-09 at 22:35:57 | INFO | payment_check_coroutine : Check result: False, time: 1079143.343
+2023-11-09 at 22:35:59 | INFO | payment_check_coroutine : Checking payment at 1079145.343
+2023-11-09 at 22:35:59 | INFO | payment_check_coroutine : Check result: False, time: 1079145.484
+2023-11-09 at 22:36:01 | INFO | payment_check_coroutine : Checking payment at 1079147.484
+2023-11-09 at 22:36:01 | INFO | payment_check_coroutine : Check result: True, time: 1079147.625
+2023-11-09 at 22:36:02 | INFO | payment_check_coroutine : Payment confirmed
+2023-11-09 at 22:36:02 | INFO | payment_check_coroutine : Sending message to testmasok@mail.ru
+2023-11-09 at 22:36:04 | INFO | send_message : Message was not sent to testmasok@mail.ru: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials b4-20020a0565120b8400b00507a69a478csm1148169lfv.149 - gsmtp')
+2023-11-09 at 22:44:23 | INFO | payment_check_coroutine : The balance check coroutine has started.
+2023-11-09 at 22:44:23 | INFO | payment_check_coroutine : Checking payment at 1079648.703
+2023-11-09 at 22:44:23 | INFO | payment_check_coroutine : Check result: False, time: 1079649.39
+2023-11-09 at 22:44:25 | INFO | payment_check_coroutine : Checking payment at 1079651.39
+2023-11-09 at 22:44:25 | INFO | payment_check_coroutine : Check result: False, time: 1079651.531
+2023-11-09 at 22:44:27 | INFO | payment_check_coroutine : Checking payment at 1079653.531
+2023-11-09 at 22:44:27 | INFO | payment_check_coroutine : Check result: False, time: 1079653.687
+2023-11-09 at 22:44:29 | INFO | payment_check_coroutine : Checking payment at 1079655.687
+2023-11-09 at 22:44:30 | INFO | payment_check_coroutine : Check result: False, time: 1079655.828
+2023-11-09 at 22:44:32 | INFO | payment_check_coroutine : Checking payment at 1079657.828
+2023-11-09 at 22:44:32 | INFO | payment_check_coroutine : Check result: False, time: 1079657.968
+2023-11-09 at 22:44:34 | INFO | payment_check_coroutine : Checking payment at 1079659.968
+2023-11-09 at 22:44:34 | INFO | payment_check_coroutine : Check result: False, time: 1079660.109
+2023-11-09 at 22:44:36 | INFO | payment_check_coroutine : Checking payment at 1079662.109
+2023-11-09 at 22:44:36 | INFO | payment_check_coroutine : Check result: False, time: 1079662.25
+2023-11-09 at 22:44:38 | INFO | payment_check_coroutine : Checking payment at 1079664.265
+2023-11-09 at 22:44:38 | INFO | payment_check_coroutine : Check result: False, time: 1079664.406
+2023-11-09 at 22:44:40 | INFO | payment_check_coroutine : Checking payment at 1079666.406
+2023-11-09 at 22:44:40 | INFO | payment_check_coroutine : Check result: False, time: 1079666.546
+2023-11-09 at 22:44:42 | INFO | payment_check_coroutine : Checking payment at 1079668.546
+2023-11-09 at 22:44:43 | INFO | payment_check_coroutine : Check result: False, time: 1079668.765
+2023-11-09 at 22:44:45 | INFO | payment_check_coroutine : Checking payment at 1079670.765
+2023-11-09 at 22:44:45 | INFO | payment_check_coroutine : Check result: False, time: 1079670.906
+2023-11-09 at 22:44:47 | INFO | payment_check_coroutine : Checking payment at 1079672.921
+2023-11-09 at 22:44:47 | INFO | payment_check_coroutine : Check result: False, time: 1079673.078
+2023-11-09 at 22:44:49 | INFO | payment_check_coroutine : Checking payment at 1079675.078
+2023-11-09 at 22:44:49 | INFO | payment_check_coroutine : Check result: True, time: 1079675.328
+2023-11-09 at 22:44:49 | INFO | payment_check_coroutine : Payment confirmed
+2023-11-09 at 22:44:50 | INFO | payment_check_coroutine : Sending message to testmasok@mail.ru
+2023-11-09 at 22:44:52 | INFO | send_message : Message was sent to testmasok@mail.ru
+2023-11-09 at 22:44:52 | INFO | payment_check_coroutine : Adding discord role
+2023-11-09 at 22:44:53 | INFO | payment_check_coroutine : An error occurred: 404 Not Found (error code: 10013): Unknown User
+2023-11-09 at 22:48:22 | INFO | payment_check_coroutine : The balance check coroutine has started.
+2023-11-09 at 22:48:22 | INFO | payment_check_coroutine : Checking payment at 1079887.89
+2023-11-09 at 22:48:24 | INFO | payment_check_coroutine : Check result: False, time: 1079890.5
+2023-11-09 at 22:48:26 | INFO | payment_check_coroutine : Checking payment at 1079892.5
+2023-11-09 at 22:48:26 | INFO | payment_check_coroutine : Check result: False, time: 1079892.64
+2023-11-09 at 22:48:28 | INFO | payment_check_coroutine : Checking payment at 1079894.64
+2023-11-09 at 22:48:29 | INFO | payment_check_coroutine : Check result: False, time: 1079894.781
+2023-11-09 at 22:48:31 | INFO | payment_check_coroutine : Checking payment at 1079896.796
+2023-11-09 at 22:48:31 | INFO | payment_check_coroutine : Check result: False, time: 1079897.031
+2023-11-09 at 22:48:33 | INFO | payment_check_coroutine : Checking payment at 1079899.031
+2023-11-09 at 22:48:33 | INFO | payment_check_coroutine : Check result: False, time: 1079899.171
+2023-11-09 at 22:48:35 | INFO | payment_check_coroutine : Checking payment at 1079901.171
+2023-11-09 at 22:48:35 | INFO | payment_check_coroutine : Check result: False, time: 1079901.453
+2023-11-09 at 22:48:37 | INFO | payment_check_coroutine : Checking payment at 1079903.453
+2023-11-09 at 22:48:37 | INFO | payment_check_coroutine : Check result: False, time: 1079903.593
+2023-11-09 at 22:48:39 | INFO | payment_check_coroutine : Checking payment at 1079905.609
+2023-11-09 at 22:48:40 | INFO | payment_check_coroutine : Check result: False, time: 1079905.75
+2023-11-09 at 22:48:42 | INFO | payment_check_coroutine : Checking payment at 1079907.75
+2023-11-09 at 22:48:42 | INFO | payment_check_coroutine : Check result: False, time: 1079907.906
+2023-11-09 at 22:48:44 | INFO | payment_check_coroutine : Checking payment at 1079909.906
+2023-11-09 at 22:48:44 | INFO | payment_check_coroutine : Check result: False, time: 1079910.062
+2023-11-09 at 22:48:46 | INFO | payment_check_coroutine : Checking payment at 1079912.062
+2023-11-09 at 22:48:46 | INFO | payment_check_coroutine : Check result: False, time: 1079912.562
+2023-11-09 at 22:48:48 | INFO | payment_check_coroutine : Checking payment at 1079914.562
+2023-11-09 at 22:48:49 | INFO | payment_check_coroutine : Check result: True, time: 1079915.031
+2023-11-09 at 22:48:49 | INFO | payment_check_coroutine : Payment confirmed
+2023-11-09 at 22:48:50 | INFO | payment_check_coroutine : Sending message to testmasok@mail.ru
+2023-11-09 at 22:48:52 | INFO | send_message : Message was sent to testmasok@mail.ru
+2023-11-09 at 22:48:52 | INFO | payment_check_coroutine : Adding discord role
+2023-11-09 at 22:48:54 | INFO | payment_check_coroutine : An error occurred: 404 Not Found (error code: 10013): Unknown User
+2023-11-09 at 22:52:16 | INFO | payment_check_coroutine : The balance check coroutine has started.
+2023-11-09 at 22:52:16 | INFO | payment_check_coroutine : Checking payment at 1080122.578
+2023-11-09 at 22:52:18 | INFO | payment_check_coroutine : Check result: False, time: 1080124.14
+2023-11-09 at 22:52:20 | INFO | payment_check_coroutine : Checking payment at 1080126.14
+2023-11-09 at 22:52:20 | INFO | payment_check_coroutine : Check result: False, time: 1080126.546
+2023-11-09 at 22:52:22 | INFO | payment_check_coroutine : Checking payment at 1080128.546
+2023-11-09 at 22:52:25 | INFO | payment_check_coroutine : Check result: False, time: 1080131.375
+2023-11-09 at 22:52:27 | INFO | payment_check_coroutine : Checking payment at 1080133.375
+2023-11-09 at 22:52:27 | INFO | payment_check_coroutine : Check result: False, time: 1080133.609
+2023-11-09 at 22:52:29 | INFO | payment_check_coroutine : Checking payment at 1080135.609
+2023-11-09 at 22:52:30 | INFO | payment_check_coroutine : Check result: False, time: 1080135.781
+2023-11-09 at 22:52:32 | INFO | payment_check_coroutine : Checking payment at 1080137.781
+2023-11-09 at 22:52:32 | INFO | payment_check_coroutine : Check result: False, time: 1080138.484
+2023-11-09 at 22:52:34 | INFO | payment_check_coroutine : Checking payment at 1080140.484
+2023-11-09 at 22:52:35 | INFO | payment_check_coroutine : Check result: False, time: 1080141.125
+2023-11-09 at 22:52:37 | INFO | payment_check_coroutine : Checking payment at 1080143.125
+2023-11-09 at 22:52:38 | INFO | payment_check_coroutine : Check result: False, time: 1080144.25
+2023-11-09 at 22:52:40 | INFO | payment_check_coroutine : Checking payment at 1080146.25
+2023-11-09 at 22:52:40 | INFO | payment_check_coroutine : Check result: False, time: 1080146.593
+2023-11-09 at 22:52:42 | INFO | payment_check_coroutine : Checking payment at 1080148.593
+2023-11-09 at 22:52:43 | INFO | payment_check_coroutine : Check result: False, time: 1080148.765
+2023-11-09 at 22:52:45 | INFO | payment_check_coroutine : Checking payment at 1080150.781
+2023-11-09 at 22:52:45 | INFO | payment_check_coroutine : Check result: False, time: 1080151.109
+2023-11-09 at 22:52:47 | INFO | payment_check_coroutine : Checking payment at 1080153.109
+2023-11-09 at 22:52:47 | INFO | payment_check_coroutine : Check result: False, time: 1080153.25
+2023-11-09 at 22:52:49 | INFO | payment_check_coroutine : Checking payment at 1080155.25
+2023-11-09 at 22:52:49 | INFO | payment_check_coroutine : Check result: True, time: 1080155.39
+2023-11-09 at 22:52:49 | INFO | payment_check_coroutine : Payment confirmed
+2023-11-09 at 22:52:49 | INFO | payment_check_coroutine : Sending message to testmasok@mail.ru
+2023-11-09 at 22:52:51 | INFO | send_message : Message was sent to testmasok@mail.ru
+2023-11-09 at 22:52:51 | INFO | payment_check_coroutine : Adding discord role
+2023-11-09 at 22:52:53 | INFO | assign_role_to_user : Role 'lame' has been assigned to user 'zemetsskiy' on server 'Test for 10kdrop'.

@@ -4,74 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Details</title>
-    <link rel="stylesheet" type="text/css" href="static/index.css">
+    <link rel="stylesheet" type="text/css" href="static/payments.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-<h1>Payment Details</h1>
 
-<div id="discord-info">
-    {% if session['username'] %}
-        <p>Authorized as: {{ session['username'] }}</p>
-        <button type="button" id="next-button" onclick="goToNextStep()">Next</button>
-    {% else %}
-    <form action="/login/discord" method="post">
-        <button type="submit">Authorize with Discord</button>
-    </form>
-    {% endif %}
-</div>
+<div class="container">
+    <h1>Payment Details</h1>
 
-<div id="data-form">
-<form id="payment-form">
-    <label for="email">Your Email:</label><br>
-    <input type="email" id="email" name="email" value="{{ session['email'] if session['email'] else '' }}" required><br>
-</form>
-</div>
-
-<div id="payment-details-form" style="display: none;">
-    <label for="network">Choose a network:</label><br>
-    <select name="network" id="network">
-        <option value="ethereum">Ethereum</option>
-        <option value="polygon">Polygon</option>
-        <option value="arbitrum">Arbitrum</option>
-        <option value="sepolia">Sepolia</option>
-    </select><br>
-
-    <label for="token">Choose a token:</label><br>
-    <select name="token" id="token">
-        <option value="eth">ETH</option>
-        <option value="usdc">USDC</option>
-        <option value="usdt">USDT</option>
-    </select><br>
-    <button type="button" onclick="submitPaymentForm()">Submit</button>
-</div>
-
-<div id="payment-checkout" style="display: none;">
-    <div id="wallet-info">
-        <p>Отправьте средства в размере <p id="amount-to-send">{{amount}}</p> <p id="token-to-send">{{token}}</p> на следующий EVM-кошелек:</p>
-        <p id="wallet-address"><strong></strong></p>
+    <div id="discord-info" class="{{ 'authorized' if session['username'] else '' }}">
+        {% if not session['username'] %}
+            <form action="/login/discord" method="post">
+                <button type="submit" id="login-button">Authorize with Discord</button>
+            </form>
+        {% else %}
+            <p>Authorized as: {{ session['username'] }}</p>
+        {% endif %}
     </div>
 
-    <div id="payment-status">
-        <p>Ожидание подтверждения платежа...</p>
+{% if session['username'] %}
+    <div id="email-form">
+        <form id="payment-form">
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" value="{{ session['email'] }}" required><br>
+            <button type="button" id="next-button" onclick="goToNextStep()">Next</button>
+        </form>
+    </div>
+{% endif %}
+
+    <div id="payment-details-form" style="display: none;">
+        <label for="network">Choose a network:</label><br>
+        <select name="network" id="network">
+            <option value="ethereum">Ethereum</option>
+            <option value="polygon">Polygon</option>
+            <option value="arbitrum">Arbitrum</option>
+            <option value="sepolia">Sepolia</option>
+        </select><br>
+
+        <label for="token">Choose a token:</label><br>
+        <select name="token" id="token">
+            <option value="eth">ETH</option>
+            <option value="usdc">USDC</option>
+            <option value="usdt">USDT</option>
+        </select><br>
+        <button type="button" onclick="submitPaymentForm()">Submit</button>
+    </div>
+
+    <div id="payment-checkout" style="display: none;">
+        <div id="wallet-info">
+            <p>Send the amount of <span id="amount-to-send">{{ amount }}</span> <span id="token-to-send">{{ token }}</span> to the following EVM wallet:</p>
+            <p id="wallet-address"><strong></strong></p>
+        </div>
+
+        <div id="payment-status">
+            <p>Waiting for payment confirmation...</p>
+        </div>
     </div>
 </div>
 
 <script type="text/javascript">
 
-    function onDiscordAuthorized(username) {
-        $('#discord-auth').hide();
-        $('#username').text(username);
-        $('#user-info').show();
-    }
 
-    function goToNextStep() {
-    $('#data-form').hide();
+function goToNextStep() {
+    $('#email-form').hide();
     $('#discord-info').hide();
-
-
     $('#payment-details-form').show();
-    }
+     console.log("Here")
+     var email = $('#email').val();
+     console.log(email)
+
+     $.ajax({
+           url: '/email',
+           type: 'POST',
+           contentType: 'application/json',
+           data: JSON.stringify({ email: email }),
+           success: function(response) {
+              console.log("email was sent")
+           },
+           error: function() {
+               alert('Error while email sending');
+           }
+           });
+}
 
     function showPaymentForm() {
         document.getElementById('payment-details-form').style.display = 'block';
@@ -100,51 +114,50 @@
             }
         });
     }
+function submitPaymentDetails() {
+    var token = $('#token').val();
+    var network = $('#network').val();
+    var amount = $('#amount').val();
 
-    function submitPaymentDetails() {
-        var token = $('#token').val();
-        var network = $('#network').val();
-        var amount = $('#amount').val();
-
-        $.ajax({
-            url: '/payment',
-            type: 'POST',
-            contentType: 'application/json',
-            data: JSON.stringify({ token: token, network: network, amount: amount }),
-            success: function(response) {
-                $('#wallet-address').text(response.wallet_address);
-                $('#wallet-info').show();
-                $('#payment-form').hide();
-                checkPaymentStatus();
-            },
-            error: function() {
-                alert('Ошибка при обработке ваших платёжных данных. Пожалуйста, попробуйте снова.');
-            }
-        });
-    }
+    $.ajax({
+        url: '/payment',
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify({ token: token, network: network, amount: amount }),
+        success: function(response) {
+            $('#wallet-address').text(response.wallet_address);
+            $('#wallet-info').show();
+            $('#payment-form').hide();
+            checkPaymentStatus();
+        },
+        error: function() {
+            alert('An error occurred while processing your payment details. Please try again.');
+        }
+    });
+}
 
 function checkPaymentStatus() {
-  $.getJSON('/check_payment_status', function(data) {
-    if (data.payment_confirmed) {
-      $('#payment-status').text('Успех. Мы получили ваши средства. Переадресация...');
-      setTimeout(function() {
-        window.location.href = '/';
-      }, 3000);
-    } else if (data.payment_timeout) {
-      $('#payment-status').text('Мы не получили ваши средства в течение 10 минут. Редирект...');
-      setTimeout(function() {
-        window.location.href = '/';
-      }, 3000);
-    } else if (data.error) {
-      $('#payment-status').text('Ошибка платежной сессии. ' + data.error);
-    } else {
-      $('#payment-status').text('Ожидание подтверждения платежа...');
-      setTimeout(checkPaymentStatus, 10000);
-    }
-  }).fail(function() {
-    $('#payment-status').text('Ошибка при проверке статуса платежа. Повторите попытку позже.');
-    setTimeout(checkPaymentStatus, 10000);
-  });
+    $.getJSON('/check_payment_status', function(data) {
+        if (data.payment_confirmed) {
+            $('#payment-status').text('Success. We have received your funds. Redirecting...');
+            setTimeout(function() {
+                window.location.href = '/';
+            }, 3000);
+        } else if (data.payment_timeout) {
+            $('#payment-status').text('We did not receive your funds within 10 minutes. Redirecting...');
+            setTimeout(function() {
+                window.location.href = '/';
+            }, 3000);
+        } else if (data.error) {
+            $('#payment-status').text('Payment session error: ' + data.error);
+        } else {
+            $('#payment-status').text('Waiting for payment confirmation...');
+            setTimeout(checkPaymentStatus, 10000);
+        }
+    }).fail(function() {
+        $('#payment-status').text('Error checking payment status. Please try again later.');
+        setTimeout(checkPaymentStatus, 10000);
+    });
 }
 </script>
 </body>
